@@ -1,0 +1,14 @@
+{
+  "name": "test-koa",
+  "version": "1.0.0",
+  "description": "A simple app to show case Koa 2",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jon Mountjoy",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^1.2.4"
+  }
+}
