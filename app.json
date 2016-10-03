@@ -1,0 +1,7 @@
+{
+  "name": "Koa sample app",
+  "description": "A barebones Koa 2 (alpha) app",
+  "repository": "https://github.com/jonmountjoy/koa-2-on-heroku",
+  "keywords": ["node", "koa"],
+  "image": "heroku/nodejs"
+}
