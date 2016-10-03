@@ -1,8 +1,9 @@
-var koa = require('koa');
-var app = koa();
+const Koa = require('koa');
+const app = new Koa();
 
-app.use(function *(){
-    this.body = 'Hello World';
-});
+// response
+app.use(ctx => {
+   ctx.body = 'Hello Koa';
+ });
 
 app.listen(process.env.PORT || 3000);
